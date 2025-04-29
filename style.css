@@ -1,9 +1,13 @@
+.html{
+    border-left: 5px solid lightgray;
+}
+
 .body{
     border-left: 5px solid lightgray;
     max-width: 1000px;
     min-height: 100%;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 .header{
     padding-left: 2rem;
@@ -24,7 +28,7 @@
     padding-bottom: 1rem;
 }
 
-.h1{
+.header h1{
     color: tomato;
 }
 
@@ -85,6 +89,6 @@
     margin-right: 0.5rem;
     line-height: 1;}
 
-    footer p {
+.footer p {
         color: lightgray;
       }   
